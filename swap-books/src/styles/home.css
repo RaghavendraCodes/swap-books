@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(Screenshot\ 2023-12-29\ 200531.png);/* Replace with your background image URL */
+    background-size: cover; /* Add blur effect */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    margin: 0;
+    /* Golden color with some transparency */
+  }
+
+  nav h1 {
+    color: #fff; /* White color for the logo text */
+    margin: 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav li {
+    margin: 0 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff; /* White color for the menu items */
+    font-weight: bold;
+    font-size: 16px;
+  }
